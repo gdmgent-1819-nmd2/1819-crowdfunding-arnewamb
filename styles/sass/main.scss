@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+// 1. Variables
+@import
+  'abstracts/variables',
+  'abstracts/fonts',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// 2. Base
+@import
+  'base/core',
+  'base/typography';
+
+// 3. Layout
+@import
+  'layout/forms',
+  'layout/header',
+  'layout/footer',
+  'layout/navigation',
+  // 'layout/sidebar',
+  'layout/grid';
+// 4. Components
+@import
+  // 'components/images',
+  'components/gridoverlay',
+  'components/buttons';
+// 'components/dropdown',
+// 'components/carousel',
+// 'components/cover';
+
+// 5. themes
+// @import
+//   'themes/gridoverlay',
+//   'themes/buttons',
+//   'themes/dropdown',
+//   'themes/carousel',
+//   'themes/cover';
+//   
+// 6. vendors
+// @import
+//   'vendors/gridoverlay',
+//   'vendors/buttons',
+//   'vendors/dropdown',
+//   'vendors/carousel',
+//   'vendors/cover';
+
+// 7. pages
+@import
+  'pages/index',
+  'pages/contact',
+  'pages/detailpage',
+  'pages/favorieten',
+  'pages/loginregister',
+  'pages/aboutus',
+  'pages/blog',
+  'pages/styleguide';
