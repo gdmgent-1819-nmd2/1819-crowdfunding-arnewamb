@@ -1,4 +1,3 @@
-1819-01-movies-gdm-1718-arnewamb
 # Crowdfunding
 ----------
 
