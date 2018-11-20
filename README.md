@@ -17,7 +17,7 @@ Watch the Mobile First web application
 ----------
 
 ```
-* COMING SOON
+* https://gdmgent-1819-nmd2.github.io/1819-crowdfunding-gdm-1718-arnewamb/
 ```
 
 Used technologies
