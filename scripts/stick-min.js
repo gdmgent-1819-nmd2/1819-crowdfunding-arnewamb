@@ -1,1 +1,0 @@
-$(".stick").stick_in_parent(),$(".sticky").stick_in_parent();
