@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+</body>
+
+</html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Bothle || Payment</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="assets/css/main.css"> -->
+</head>
+
+<body class="blueBg">
+  <div class="navigation">
+  <div class="burger">
+    <span></span>
+  </div>
+  <nav id="nav-main" class="nav-primary pull-right">
+    <div class="menu-menu-principal-container">
+      <ul id="menu-menu-principal" class="nav">
+        <li><a href="index.html">Bothle</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="terms.html">Terms of service</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+  <div class="container-fluid">
+  <div class="row titleRow">
+    <div class="offset-1 col-9 col-lg-6 offset-lg-1">
+      <h1>Payment</h1>
+      <hr class="offset-2 col-10 titleUnderline">
+    </div>
+  </div>
+  <div class="row">
+    <div class="offset-2 offset-lg-2 col-lg-10 margintop30">
+      <a class="paymethod" href="login.html"><img src="assets/img/paypall.svg" alt="Paypall Icon"></a>
+      <h4 id="paypalicon">or</h4>
+    </div>
+    <form name="shippingForm" class="row col-12 col-lg-8 needs-validation" action="confirm.html" novalidate>
+      <div class=" form-group offset-2 col-8 offset-md-2 col-md-4 col-lg-4 offset-lg-3">
+        <label for="FullName">Cardholder name<span class="red">*</span></label>
+        <input class="border-bottom form-control" pattern=".{0,100}" type="text" id="carholderName" name="cardholderName" placeholder="John Doe" required>
+        <label for="Street">Card number<span class="red">*</span></label>
+        <input class="border-bottom form-control" type="number" id="cardNumber" name="cardNumber" min="1000000000000000" max="9999999999999999" placeholder="4545-1053-2154-6096" required>
+        <div class="invalid-feedback">
+          Only fill in numbers
+        </div>
+        <label for="Street">Expire Date<span class="red">*</span></label>
+        <input class="border-bottom form-control" type="text" pattern=".{5}" id="exDate" name="exDate" placeholder="02/26" required>
+      </div>
+      <div class="form-group offset-2 col-8 col-md-3 offset-md-1 col-lg-3 offset-lg-1">
+        <label for="FullName">CVV<span class="red">*</span></label>
+        <input class="border-bottom form-control" min="100" max="999" type="number" id="cvv" name="cvv" placeholder="278" required>
+        <button class="btn btn-primary nextBttn" id="nextBttn">Pay</button>
+      </div>
+    </form>
+    <div class="offset-2 offset-lg-0 col-10 col-lg-3 order-lg-last order-first">
+      <h2 class="margintop50">Overview</h2>
+      <h3>€70</h3>
+      <h4>One Bothl with extra battery </h4>
+      <h4>Available: 30 november</h4>
+    </div>
+  </div>
+  <div class="row goBackRow">
+  <div class="offset-2 col-8">
+    <a class="margin50 goBackButton" href="index.html">Go back to Home</a>
+  </div>
+</div>
+</div>
+  <!-- javascript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.2.1/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+
+  <script src="assets/scripts/sticky-kit-min.js" charset="utf-8"></script>
+  <script src="assets/scripts/stick-min.js" charset="utf-8"></script>
+  <script src="assets/scripts/validation-min.js" charset="utf-8"></script>
+  <script src="assets/scripts/back-min.js" charset="utf-8"></script>
+  <script src="assets/scripts/scroll-min.js" charset="utf-8"></script>
+  <script src="assets/scripts/nav-min.js" charset="utf-8"></script>
+</body>
+
+</html>
