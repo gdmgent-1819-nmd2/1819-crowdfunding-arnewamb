@@ -28,6 +28,8 @@ Used technologies
 * Bootstrap
 * Sass
 * Javascript
+* Jquery
+* Sticky-kit (jQuery plugin for making smart sticky elements)
 
 Used programs
 ----------
