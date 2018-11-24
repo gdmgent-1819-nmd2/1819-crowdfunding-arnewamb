@@ -28,3 +28,8 @@ Used technologies
 * Bootstrap
 * Sass
 * Javascript
+
+Used programs
+----------
+* Atom 
+* Codekit (due to persistent problems with sass with jekyll.)
