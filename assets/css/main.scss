@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+// 1. Variables
+@import
+  '../_sass/abstracts/variables',
+  // '../_sass/abstracts/fonts',
+  '../_sass/abstracts/functions',
+  '../_sass/abstracts/mixins';
+
+// 2. Base
+@import
+  '../_sass/base/core',
+  '../_sass/base/typography',
+  '../_sass/base/colors';
+
+// 3. Layout
+@import
+  '../_sass/layout/forms',
+  '../_sass/layout/header',
+  '../_sass/layout/footer',
+  '../_sass/layout/img',
+  // 'layout/sidebar',
+  '../_sass/layout/grid';
+// 4. Components
+@import
+  // 'components/images',
+  '../_sass/components/gridoverlay',
+  '../_sass/components/nav',
+  '../_sass/components/buttons';
+// 'components/dropdown',
+// 'components/carousel',
+// 'components/cover';
+
+// 5. themes
+// @import
+//   'themes/gridoverlay',
+//   'themes/buttons',
+//   'themes/dropdown',
+//   'themes/carousel',
+//   'themes/cover';
+//
+// 6. vendors
+@import
+   '../_sass/vendors/icon';
+//   'vendors/buttons',
+//   'vendors/dropdown',
+//   'vendors/carousel',
+//   'vendors/cover';
+
+// 7. pages
+@import
+  '../_sass/pages/back',
+  '../_sass/pages/contact',
+  '../_sass/pages/faq',
+  '../_sass/pages/index',
+  '../_sass/pages/pay',
+  '../_sass/pages/shipping',
+  '../_sass/pages/paypall',
+  '../_sass/pages/terms';

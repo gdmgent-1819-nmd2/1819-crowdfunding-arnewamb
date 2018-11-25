@@ -1,0 +1,1 @@
+var tl=new TimelineMax;tl.staggerTo(".nav li",.3,{opacity:1,marginRight:0},.1),tl.pause(),$(".burger").click(function(){$(".burger").hasClass("cross")?($(".burger").removeClass("cross"),tl.reverse()):($(".burger").addClass("cross"),tl.play())});
