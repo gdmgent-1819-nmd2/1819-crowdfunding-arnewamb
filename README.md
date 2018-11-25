@@ -37,3 +37,8 @@ Used programs
 * Codekit (Due to persistent problems with sass with jekyll.)
 * Adobe Dimension (Product design)
 * Photoshop (Editing pictures for the website)
+
+
+Problems 
+----------
+* Google maps on contact page not working properly because of new google billing system
