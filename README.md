@@ -20,6 +20,13 @@ Watch the Mobile First web application
 * https://gdmgent-1819-nmd2.github.io/1819-crowdfunding-gdm-1718-arnewamb/
 ```
 
+Watch the Styleguide
+----------
+
+```
+* https://gdmgent-1819-nmd2.github.io/1819-crowdfunding-gdm-1718-arnewamb/styleguide.html
+```
+
 Used technologies
 ----------
 * HTML
