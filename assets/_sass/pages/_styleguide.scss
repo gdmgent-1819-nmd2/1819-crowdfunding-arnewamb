@@ -1,0 +1,13 @@
+.styleguide{
+  .colorvak{
+    height: 100px;
+    display: inline-block;
+    @include border-radius(10px);
+  }
+  .nextBttn{
+    margin-top: 5px;
+  }
+  #openBtn{
+    position: static;
+  }
+}

@@ -1,0 +1,80 @@
+.navigation{
+position: fixed;
+top: 5%;
+right: 5%;
+z-index: 10000;
+.nav{
+	@include breakpoint (720px){
+		display: flex;
+	}
+	display: block
+}
+/** BURGER **/
+.burger {
+	margin: auto;
+	cursor: pointer;
+	float:right;
+	display: block;
+  position: relative;
+  background: $red;
+  width: $width-nav;
+  height: $height-nav;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+.burger:before, .burger span, .burger:after {
+	width: $width-nav/2;
+	height: $thickness-nav;
+	display: block;
+	margin: 0 auto;
+	top: 50%;
+  left: 0;
+  right:0;
+  background: white;
+	position: absolute;
+	opacity: 1;
+  transform: translateY(-50%);
+  z-index:10000
+}
+.burger:before,
+.burger:after {
+  transition: all 0.3s ease;
+	content: "";
+
+}
+.burger:before {
+	top: 35%;
+}
+.burger span {
+	top: 50%;
+}
+.burger:after {
+	top: 65%;
+}
+
+
+.burger.cross span {
+	opacity: 0;
+}
+.burger.cross:before, .burger.cross:after {
+	top: 50%;
+}
+.burger.cross:before {
+	transform: rotate(45deg);
+}
+.burger.cross:after {
+	transform: rotate(-45deg);
+}
+.burger:focus {
+	outline: none;
+}
+}
+
+/** MENU **/
+nav.nav-primary{vertical-align: middle;}
+nav.nav-primary li {display: block; opacity: 0; background-color: white; padding: 5px; }
+nav.nav-primary {display: inline-block; }
+nav.nav-primary li a {color: $red; margin-right: 20px; text-decoration: none;  font-family: sans-serif; font-size: 18px;text-transform: uppercase;}
+nav.nav-primary li.active a {font-family: sans-serif; font-weight: 700;}
+nav.nav-primary {line-height: $height-nav; margin-right: 20px; position: relative; z-index: 1000;}

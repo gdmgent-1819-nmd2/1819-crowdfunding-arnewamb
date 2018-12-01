@@ -1,0 +1,92 @@
+---
+title: Bothle || Home
+layout: default
+permalink: /index
+published: true
+bodyclass: pinkBg
+---
+<div class="container-fluid">
+  {% include back.html %}
+  <button id="openBtn" class="backButton btn-light offset-1 col-10" type="button" name="back"><span class="align-middle">Back this project</span> <span class="float-right align">€24456 pledged from 20000 goal <span class="align-middle"><i class="material-icons">expand_less</i></span></span>
+  </button> <!-- first pink row -->
+  <div class="row">
+    <div class="col-12 col-lg-6 titleRow h-100vh pinkBg stick nopadding">
+      <h1 class="offset-1 offset-md-2 offset-lg-1">About Bothle</h1>
+      <hr class="offset-2 offset-md-3 offset-lg-2 col-8 col-md-6 col-lg-8 titleUnderline">
+      <p class=" marginbottom50 offset-2 offset-md-3 offset-lg-2 col-8 col-md-6 col-lg-8">
+        {% include about.md %}
+      </p>
+      <div class="scrollDown offset-2 col-8 text-center ">
+        <a href="#greenBothle" id="scroll">
+          Learn more about bothle <br>Scroll down <br>
+          <i class="material-icons medium lg-light">expand_more</i></a>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 nopadding pinkBg">
+      <div id="img1" class="img-100vh imgvw">
+      </div>
+      <div id="img2" class="img-100vh imgvw">
+      </div>
+    </div>
+  </div>
+
+  <!-- second blue row -->
+  <div class="row">
+    <div class="col-6 img-100vh yellowBg nopadding hiddenmob">
+      <div id="img3" class="img-100vh imgvw ">
+      </div>
+    </div>
+    <div id="greenBothle" class="col-12 col-lg-6 titleRow h-100vh yellowBg  nopadding">
+      <h1 class="offset-1 offset-md-2 offset-lg-1">Bothle is green</h1>
+      <hr class="offset-2 offset-md-3 offset-lg-2 col-8 col-md-6 col-lg-8 titleUnderline">
+      <p class=" marginbottom50 offset-2 offset-md-3 offset-lg-2 col-8 col-md-6 col-lg-8">
+        {% include green.md %} </p>
+    </div>
+    <div class="col-6 img-100vh yellowBg nopadding hiddendesk">
+      <div id="img3" class="img-100vh imgvw ">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- third blue row -->
+  <div class="row">
+    <div class="col-12 col-lg-6 titleRow h-100vh blueBg stick nopadding  ">
+      <h1 class="offset-1 offset-md-2 offset-lg-1">Small & Large</h1>
+      <hr class="offset-2 offset-md-3 offset-lg-2 col-8 col-md-6 col-lg-8 titleUnderline">
+      <p class=" marginbottom50 offset-2 offset-md-3 offset-lg-2 col-8 col-md-6 col-lg-8">
+        {% include smalllarge.md %} </p>
+
+    </div>
+    <div class="col-12 col-lg-6 nopadding blueBg">
+      <div id="img4" class="img-100vh imgvw">
+      </div>
+      <div id="img5" class="img-100vh imgvw">
+      </div>
+    </div>
+    <div class="col-6 img-100vh yellowBg nopadding hiddenmob">
+      <div id="img6" class="img-100vh imgvw ">
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 nopadding lightblueBg">
+      <div class="paddingbottom100">
+        <form name="subscribeForm" class="row offset-2 offset-lg-1 col-10 col-lg-9 needs-validation subscribeForm" action="index.html" novalidate>
+          <div class="form-group">
+            <label class="bold" for="email">Subscribe to our newsletter</label>
+            <input class="border-bottom form-control" type="text" id="email" name="email" placeholder="email" required>
+            <button class="btn btn-primary nextBttn" id="nextBttn">Subscribe</button>
+          </div>
+        </form>
+        <div class="offset-2 offset-lg-1 col-10 col-lg-8">
+          <a href="https://www.facebook.com" target="_blank" class="social-icon"> <i class="fa fa-facebook"></i></a>
+          <a href="https://www.twitter.com" target="_blank" class="social-icon"> <i class="fa fa-twitter"></i></a>
+          <a href="https://www.youtube.com" target="_blank" class="social-icon"> <i class="fa fa-youtube"></i></a>
+          <a href="https://www.instagram.com" target="_blank" class="social-icon"> <i class="fa fa-instagram"></i></a>
+          <br>
+          <a href="styleguide.html">go to styleguide</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+.red{
+  color: $red;
+}
+.yellow{
+  color: $yellow;
+}
+.blue{
+  color: $blue;
+}
+.lightblue{
+  color: $lightblue;
+}
+.greyBg{
+  background-color: $grey;
+}
+.pinkBg{
+  background-color: $pink;
+}
+.redBg{
+  background-color: $red;
+}
+.yellowBg{
+  background-color: $yellow;
+}
+.blueBg{
+  background-color: $blue;
+}
+.lightblueBg{
+  background-color: $lightblue;
+}
+.gradient{
+  @include gradient(90, #FFAFAF, #FFE291, #C4FAFF);
+}

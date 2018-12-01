@@ -1,0 +1,71 @@
+/* input form styling */
+.form-group>input{
+  background-color: transparent;
+  border:none;
+  padding: 0 5px;
+  padding-bottom: 5px;
+  display: block;
+  border-radius: 0px;
+}
+.border-bottom {
+border-bottom: 1px solid black !important;
+}
+/* overwriting the border settings from bootstrap, and the automatic border shadow */
+.was-validated .form-control:invalid, .form-control.is-invalid, .was-validated
+.custom-select:invalid,
+.custom-select.is-invalid{
+  border-bottom: 1px solid #dc3545 !important;
+}
+.was-validated .form-control:invalid:focus, .form-control.is-invalid:focus, .was-validated
+.custom-select:invalid:focus,
+.custom-select.is-invalid:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0rem;
+}
+.was-validated .form-control:valid, .form-control.is-valid, .was-validated
+.custom-select:valid,
+.custom-select.is-valid {
+  border-bottom: 1px solid #28a745 !important;
+}
+.was-validated .form-control:valid:focus, .form-control.is-valid:focus, .was-validated
+.custom-select:valid:focus,
+.custom-select.is-valid:focus {
+  border-color: #28a745;
+  box-shadow:none;
+}
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: none;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+
+.uneditable-input:focus {
+  background-color: transparent;
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+//turning off the arrows for number selection
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.paymethod>img{
+  width: 100px;
+  height: auto;
+}
+#paypalicon{
+  display: inline;
+  padding: 0 30px;
+}
+
+.subscribeForm>.form-group>label.bold{
+  margin-top: 100px;
+}

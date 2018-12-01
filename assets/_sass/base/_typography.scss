@@ -1,0 +1,59 @@
+.titleRow{
+  padding-top: 100px;
+}
+.BackTitleRow{
+  padding-top: 50px;
+}
+.goBackRow{
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+.titleUnderline{
+  @include gradient(90, #f81516, #fea621, #01a0c6);
+  margin-bottom: 50px;
+}
+.bold{
+  font-weight: bold;
+}
+h1, h2, h3, h4, h5,p, label, li, a{
+  font-family: helvetica;
+}
+h1,h2{
+  font-weight: bold;
+}
+h3,h4,p,li {
+  font-weight: lighter;
+}
+h1{
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+h2, h3{
+  font-size: 30px;
+}
+h4, label{
+  font-size: 17px;
+}
+p{
+  font-size: 15px;
+}
+label{
+  margin-top: 50px;
+}
+li{
+  list-style: linear-gradient(90deg, #f81516, #fea621, #01a0c6);
+}
+a{
+  color: black;
+  font-size: 15px;
+  &:hover{
+    color: $red;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  &:active{
+    color: $red;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}

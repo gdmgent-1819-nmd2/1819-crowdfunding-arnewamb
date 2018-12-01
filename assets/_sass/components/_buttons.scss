@@ -1,0 +1,87 @@
+.btn-primary{
+  border-radius: 15px;
+  background-color: $grey;
+  color: black;
+  border: none;
+  &:active{
+    background-color: $red !important;
+  }
+  &:hover{
+    background-color: white;
+    color: black;
+    border: none;
+  }
+  &:focus{
+    background-color: white;
+    color: black;
+    border: none;
+  }
+}
+.scrollDown{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  a{
+    color: black;
+  }
+  a:hover{
+    color: $red;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:active{
+    color: $red;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+
+.nextBttn{
+  margin-top: 50px;
+&:active{
+  background-color: $red;
+  color: $red;
+}
+&:hover{
+  background-color: $grey;
+  color: $red;
+}
+}
+.backButton{
+  @include border-radius(30px);
+  background-color: white;
+  border: none;
+  position: fixed;
+  height: 60px;
+  top: 80vh;
+  text-align: left;
+  z-index: 10000;
+  @include breakpoint(620px){
+    height: 40px;
+  }
+  @include breakpoint(768px){
+    top: 90vh;
+  }
+  &:hover{
+    @include border-radius(30px);
+    @include gradient(90, #FFAFAF, #FFE291, #C4FAFF);;
+    border: none;
+  }
+  &:active{
+    @include border-radius(30px);
+    @include gradient(90, #FFAFAF, #FFE291, #C4FAFF);;
+    border: none;
+  }
+}
+.goBackButton{
+  color: black;
+  font-weight: bold;
+  &:hover{
+    color: $red;
+    text-decoration: none;
+  }
+  &:active{
+    color: $red;
+    text-decoration: none;
+  }
+}
