@@ -7,7 +7,6 @@ New Media Design 2
 Academiejaar 2018-19
 Arne Wambeke
 
-testtest
 
 Crossmedia-ontwerp  
 Bachelor in de grafische en digitale media  
