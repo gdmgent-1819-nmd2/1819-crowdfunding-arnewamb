@@ -8,7 +8,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Paypal || Payment</title>
+<title>{{page.title}}</title>
 <!-- favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
@@ -25,30 +25,9 @@
 <!-- <link rel="stylesheet" href="assets/css/main.css"> -->
 </head>
 
-<body class="">
-  <div class="navigation">
-  <div class="burger">
-    <span></span>
-  </div>
-  <nav id="nav-main" class="nav-primary pull-right">
-    <div class="menu-menu-principal-container">
-      <ul id="menu-menu-principal" class="nav">
-        <li><a href="index.html">Bothle</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="terms.html">Terms of service</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-      </ul>
-    </div>
-  </nav>
-</div>
-  <div class="container">
-  <div class="row">
-    <div class="col-8 offset-2">
-      <a href="confirm.html"><img id="paypalpay" src="assets/img/pay.png" alt="paypalpay"></a>
-      <a class="goBackButton" href="payment.html">cancel and return to bothle</a>
-    </div>
-  </div>
-</div>
+<body class="{{page.bodyclass}}">
+  {% include navigation.html %}
+  {{content}}
   <!-- javascript -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

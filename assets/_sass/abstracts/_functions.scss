@@ -1,0 +1,32 @@
+@function modular-scale($level) {
+  @return #{map-get($modular-scales, $level)}rem;
+}
+
+@function line-height($level) {
+  @return #{ceil(map-get($line-heights, $level))}rem;
+}
+
+@function grid-selector($key) {
+  @return #{map-get($grid-prefix-names, $key)};
+}
+
+@for $i from 1 through 30 {
+    .paddingtop#{10*$i}, {
+ padding-top: unquote((10 * $i)+"px");
+    }
+}
+@for $i from 1 through 30 {
+    .paddingbottom#{10*$i}, {
+ padding-bottom: unquote((10 * $i)+"px");
+    }
+}
+@for $i from 1 through 30 {
+    .margintop#{10*$i}, {
+ margin-top: unquote((10 * $i)+"px");
+    }
+}
+@for $i from 1 through 30 {
+    .marginbottom#{10*$i}, {
+ margin-bottom: unquote((10 * $i)+"px");
+    }
+}
