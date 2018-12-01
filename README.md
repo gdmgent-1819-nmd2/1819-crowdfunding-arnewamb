@@ -7,7 +7,6 @@ New Media Design 2
 Academiejaar 2018-19
 Arne Wambeke
 
-
 Crossmedia-ontwerp  
 Bachelor in de grafische en digitale media  
 Arteveldehogeschool  
@@ -41,12 +40,12 @@ Used technologies
 
 Used programs
 ----------
-* Atom
+* Atom 
 * Codekit (Due to persistent problems with sass with jekyll.)
 * Adobe Dimension (Product design)
 * Photoshop (Editing pictures for the website)
 
 
-Problems
+Problems 
 ----------
 * Google maps on contact page not working properly because of new google billing system
