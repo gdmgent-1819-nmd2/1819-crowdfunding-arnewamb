@@ -8,12 +8,14 @@ tl.pause();
 
 $('.burger').click(function() {
   if(!$('.burger').hasClass('cross')){
+    $('#nav-main').removeClass('d-none');
+
     $('.burger').addClass('cross');
-    // $('#nav-main').removeClass('d-none');
     tl.play();
   } else {
+    $('#nav-main').addClass('d-none');
+
     $('.burger').removeClass('cross');
-    // $('#nav-main').addClass('d-none');
     tl.reverse();
   }
 });
