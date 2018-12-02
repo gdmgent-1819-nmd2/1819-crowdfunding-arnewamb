@@ -27,6 +27,7 @@ Watch the Styleguide
 
 [Bothle Styleguide](https://gdmgent-1819-nmd2.github.io/1819-crowdfunding-arnewamb/styleguide.html)
 
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 Used technologies
 ----------
