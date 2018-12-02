@@ -57,4 +57,4 @@ Problems
 * Google maps on contact page not working properly because of new google billing system
 ----------
 
-![Alt Text](https://media.giphy.com/media/l0HlOkDKibRudGiGc/giphy.gif
+![Alt Text](https://media.giphy.com/media/l0HlOkDKibRudGiGc/giphy.gif)
