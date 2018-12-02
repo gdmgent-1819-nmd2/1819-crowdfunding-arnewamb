@@ -17,14 +17,14 @@ Watch the Mobile First web application
 ----------
 
 ```
-* https://gdmgent-1819-nmd2.github.io/1819-crowdfunding-gdm-1718-arnewamb/
+* https://gdmgent-1819-nmd2.github.io/1819-crowdfunding-arnewamb/
 ```
 
 Watch the Styleguide
 ----------
 
 ```
-* https://gdmgent-1819-nmd2.github.io/1819-crowdfunding-gdm-1718-arnewamb/styleguide.html
+* https://gdmgent-1819-nmd2.github.io/1819-crowdfunding-arnewamb/styleguide.html
 ```
 
 Used technologies
@@ -40,12 +40,12 @@ Used technologies
 
 Used programs
 ----------
-* Atom 
+* Atom
 * Codekit (Due to persistent problems with sass with jekyll.)
 * Adobe Dimension (Product design)
 * Photoshop (Editing pictures for the website)
 
 
-Problems 
+Problems
 ----------
 * Google maps on contact page not working properly because of new google billing system
