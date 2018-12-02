@@ -30,3 +30,23 @@
  margin-bottom: unquote((10 * $i)+"px");
     }
 }
+@for $i from 1 through 30 {
+    .paddingleft#{10*$i}, {
+ padding-left: unquote((10 * $i)+"px");
+    }
+}
+@for $i from 1 through 30 {
+    .paddingright#{10*$i}, {
+ padding-right: unquote((10 * $i)+"px");
+    }
+}
+@for $i from 1 through 30 {
+    .marginleft#{10*$i}, {
+ margin-left: unquote((10 * $i)+"px");
+    }
+}
+@for $i from 1 through 30 {
+    .marginright#{10*$i}, {
+ margin-right: unquote((10 * $i)+"px");
+    }
+}
