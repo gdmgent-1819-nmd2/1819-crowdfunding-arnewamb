@@ -9,12 +9,10 @@ tl.pause();
 $('.burger').click(function() {
   if(!$('.burger').hasClass('cross')){
     $('#nav-main').removeClass('d-none');
-
     $('.burger').addClass('cross');
     tl.play();
   } else {
     $('#nav-main').addClass('d-none');
-
     $('.burger').removeClass('cross');
     tl.reverse();
   }
