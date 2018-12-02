@@ -11,6 +11,9 @@ Crossmedia-ontwerp
 Bachelor in de grafische en digitale media  
 Arteveldehogeschool  
 
+Dit is een fictieve website
+gemaakt in opdarcht van Arteveldehogeschool
+
 
 
 Watch the Mobile First web application
