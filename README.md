@@ -24,9 +24,9 @@ Watch the Mobile First web application
 Watch the Styleguide
 ----------
 
-```
+
 [Bothle Styleguide](https://gdmgent-1819-nmd2.github.io/1819-crowdfunding-arnewamb/styleguide.html)
-```
+
 
 Used technologies
 ----------
