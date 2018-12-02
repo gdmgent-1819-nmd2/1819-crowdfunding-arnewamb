@@ -1,3 +1,4 @@
+.webp{
 #img1{
   background-image: url("../img/orangeblue.webp");
   background-size: cover;
@@ -34,4 +35,44 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+}
+.no-webp{
+#img1{
+  background-image: url("../img/orangeblue.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+#img2{
+  background-image: url("../img/redblue.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#img3{
+  background-image: url("../img/bluebothle.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#img4{
+  background-image: url("../img/bottlegreen2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#img5{
+  background-image: url("../img/bothlesize.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#img6{
+  background-image: url("../img/bothleflower.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 }

@@ -952,39 +952,76 @@ input[type=number]::-webkit-outer-spin-button {
 .subscribeForm > .form-group > label.bold {
   margin-top: 100px; }
 
-#img1 {
+.webp #img1 {
   background-image: url("../img/orangeblue.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden; }
 
-#img2 {
+.webp #img2 {
   background-image: url("../img/redblue.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
 
-#img3 {
+.webp #img3 {
   background-image: url("../img/bluebothle.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
 
-#img4 {
+.webp #img4 {
   background-image: url("../img/bottlegreen2.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
 
-#img5 {
+.webp #img5 {
   background-image: url("../img/bothlesize.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
 
-#img6 {
+.webp #img6 {
   background-image: url("../img/bothleflower.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.no-webp #img1 {
+  background-image: url("../img/orangeblue.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden; }
+
+.no-webp #img2 {
+  background-image: url("../img/redblue.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.no-webp #img3 {
+  background-image: url("../img/bluebothle.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.no-webp #img4 {
+  background-image: url("../img/bottlegreen2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.no-webp #img5 {
+  background-image: url("../img/bothlesize.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.no-webp #img6 {
+  background-image: url("../img/bothleflower.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
