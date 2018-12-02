@@ -19,6 +19,8 @@ Watch the Mobile First web application
 
 ```
 [Bothle website](https://gdmgent-1819-nmd2.github.io/1819-crowdfunding-arnewamb/)
+http://github.com - automatic!
+[GitHub](http://github.com)
 ```
 
 Watch the Styleguide
