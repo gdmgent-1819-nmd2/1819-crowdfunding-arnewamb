@@ -7,8 +7,8 @@ email: wambeke7@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Crowdfunding website for Bothle
   A bottle with two compartiments that you can choose the tempature for each compartiment
-baseurl: "/1819-crowdfunding-gdm-1718-arnewamb" # the subpath of your site, e.g. /blog
-url: "https://gdmgent-1819-nmd2.github.io/1819-crowdfunding-gdm-1718-arnewamb/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/1819-crowdfunding-arnewamb" # the subpath of your site, e.g. /blog
+url: "https://gdmgent-1819-nmd2.github.io/1819-crowdfunding-arnewamb/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  gdm-1718-arnewamb
 
 # Build settings
