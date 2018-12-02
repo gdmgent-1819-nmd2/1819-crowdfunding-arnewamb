@@ -27,8 +27,6 @@ Watch the Styleguide
 
 [Bothle Styleguide](https://gdmgent-1819-nmd2.github.io/1819-crowdfunding-arnewamb/styleguide.html)
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
-
 Used technologies
 ----------
 * HTML
@@ -57,3 +55,6 @@ I used Modernizr to detect if the browser supports .webp if not it goes over on 
 Problems
 ----------
 * Google maps on contact page not working properly because of new google billing system
+
+
+![Alt Text](https://media.giphy.com/media/l0HlOkDKibRudGiGc/giphy.gif)
