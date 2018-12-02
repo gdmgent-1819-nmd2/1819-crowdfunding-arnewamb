@@ -45,7 +45,7 @@ Used programs
 * Codekit (Due to persistent problems with sass with jekyll.)
 * Adobe Dimension (Product design)
 * Photoshop (Editing pictures for the website)
-
+* Google analytics
 
 Problems
 ----------
