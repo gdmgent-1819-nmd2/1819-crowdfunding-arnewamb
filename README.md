@@ -1,7 +1,7 @@
 # Crowdfunding
 ----------
 
-Informatie
+Information
 ----------
 New Media Design 2
 Academiejaar 2018-19
