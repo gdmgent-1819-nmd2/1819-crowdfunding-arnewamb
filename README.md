@@ -42,7 +42,7 @@ Used technologies
 Used programs
 ----------
 * Atom
-* Codekit (Due to persistent problems with sass with jekyll.)
+* Codekit (minifying the javascript files)
 * Adobe Dimension (Product design)
 * Photoshop (Editing pictures for the website)
 * Google analytics
