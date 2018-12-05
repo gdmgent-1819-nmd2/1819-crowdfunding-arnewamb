@@ -25,7 +25,7 @@ plugins:
 # - jekyll-redirect-from
 # - jekyll-seo-tag
 # - jekyll-sitemap
- # - jemoji
+# - jemoji
 
 exclude:
   - Gemfile
@@ -37,3 +37,7 @@ exclude:
   - vendor/ruby/
   - config.codekit3
   - README.md
+
+
+sass:
+    style: compressed
