@@ -1208,7 +1208,7 @@
 		},
 	"/_site/assets/img/png/login.png": {
 		"ft": 32768,
-		"iS": 46894,
+		"iS": 39071,
 		"oA": 0,
 		"oAP": "/_site/assets/img/png/login.png",
 		"oF": 0,
@@ -1230,7 +1230,7 @@
 		},
 	"/_site/assets/img/png/pay.png": {
 		"ft": 32768,
-		"iS": 85986,
+		"iS": 62434,
 		"oA": 0,
 		"oAP": "/_site/assets/img/png/pay.png",
 		"oF": 0,
@@ -1742,12 +1742,12 @@
 		},
 	"/assets/img/png/login.png": {
 		"ft": 32768,
-		"iS": 46894,
+		"iS": 64322,
 		"oA": 0,
 		"oAP": "/assets/img/png/login.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1764,12 +1764,12 @@
 		},
 	"/assets/img/png/pay.png": {
 		"ft": 32768,
-		"iS": 85986,
+		"iS": 43328,
 		"oA": 0,
 		"oAP": "/assets/img/png/pay.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

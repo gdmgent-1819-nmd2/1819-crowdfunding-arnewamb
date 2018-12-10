@@ -1,4 +1,30 @@
-#paypallogin, #paypalpay{
-  margin-top: 20%;
-  width: 100%;
+
+.paypallogin{
+  background-image: url("../img/png/login.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+.paypalpay{
+  background-image: url("../img/png/pay.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.paypal{
+.container{
+  height: 100vh;
+  position: relative;
+.firstrow{
+  height: 70vh;
+    .nextlink{
+      position: absolute;
+      height: 60vh;
+      width: 100vw;
+    }
+  }
+
+  .returnrow{
+    margin-top: 60px;
+  }
+}
 }
