@@ -1285,32 +1285,12 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/_site/assets/scripts/backing-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/_site/assets/scripts/backing-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/_site/assets/scripts/js/back.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/_site/assets/scripts/js/back-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/_site/assets/scripts/js/backing.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/_site/assets/scripts/js/backing-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
